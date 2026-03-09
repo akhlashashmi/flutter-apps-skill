@@ -1,10 +1,10 @@
 # State Management
 
-Notifier patterns to manage mutable state with Riverpod 3.x codegen.
+ViewModel patterns for managing mutable presentation state with Riverpod 3.x codegen.
 
 ## Notifier Structure
 
-Every feature notifier follows the same pattern:
+In this skill, feature notifiers are the MVVM ViewModel layer. Every feature notifier follows the same pattern:
 
 ```dart
 part 'product_notifier.g.dart';

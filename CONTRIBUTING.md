@@ -33,7 +33,7 @@ Thank you for your interest in contributing! This document provides guidelines f
 // Include language identifier
 // Use Riverpod 3.x codegen syntax (@riverpod, @Riverpod)
 // Use Freezed 3.x sealed class syntax
-// Follow architecture guidelines (data/domain/repositories/presentation)
+// Follow feature-first MVVM architecture guidelines (data/domain/repositories/presentation)
 ```
 
 ### Package Versions

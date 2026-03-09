@@ -83,7 +83,7 @@ return const Padding(padding: EdgeInsets.all(16), child: child);
 | `@Riverpod(keepAlive: true)` | `@riverpod` |
 |------------------------------|-------------|
 | Repositories, datasources, services | Computed values, derived data |
-| Feature notifiers | One-time fetches |
+| Feature ViewModels (Riverpod notifiers) | One-time fetches |
 | Lives until app terminates | Disposes when no widget watches |
 
 ### Equality Filtering
@@ -207,7 +207,7 @@ List<Product> sortedProducts(Ref ref) {
 - Never override `operator ==` on Widget — causes O(N²) rebuild checks; rely on `const` and caching instead
 
 ### State Management
-- `@Riverpod(keepAlive: true)` for repos, datasources, services, notifiers
+- `@Riverpod(keepAlive: true)` for repos, datasources, services, and ViewModels
 - `@riverpod` for computed values and one-time fetches
 - `if (!ref.mounted) return;` after every `await`
 

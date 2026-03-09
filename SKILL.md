@@ -5,7 +5,7 @@ license: MIT
 metadata:
   author: akhlashashmi
   version: "3.3.0"
-  tags: flutter, riverpod, freezed, state-management, clean-architecture, dart, drift, hive, persistence, local-storage, showcaseview, guided-tours, onboarding
+  tags: flutter, riverpod, freezed, state-management, mvvm, dart, drift, hive, persistence, local-storage, showcaseview, guided-tours, onboarding
 ---
 
 # Flutter Best Practices

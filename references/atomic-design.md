@@ -389,7 +389,7 @@ class DashboardTemplate extends StatelessWidget {
 
 ## Pages
 
-Pages compose templates with organisms. Connect state to layout here.
+Pages compose templates with organisms. They are part of the MVVM View layer and connect ViewModel state to layout here.
 
 ### Rules
 
@@ -441,9 +441,9 @@ class ProductDashboardScreen extends ConsumerWidget {
 | Atoms | `core/widgets/atoms/` | No |
 | Molecules | `core/widgets/molecules/` | No |
 | Organisms (shared) | `core/widgets/organisms/` | Yes |
-| Organisms (feature) | `features/x/widgets/` | Yes |
+| Organisms (feature) | `features/x/presentation/widgets/` | Yes |
 | Templates | `core/widgets/templates/` | No |
-| Pages | `features/x/screens/` | Yes |
+| Pages | `features/x/presentation/screens/` | Yes |
 
 ## Promotion Rules
 

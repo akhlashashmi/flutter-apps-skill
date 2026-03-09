@@ -47,7 +47,7 @@ Never write `xxxNotifierProvider` — it does not exist in codegen output.
 
 ### keepAlive Providers (long-lived)
 
-For repositories, datasources, services, and feature notifiers:
+For repositories, datasources, services, and feature ViewModels implemented as notifiers:
 
 ```dart
 // Functional provider — returns a value, lives forever
